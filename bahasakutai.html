@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bahasa Kutai</title>
+    <link rel="stylesheet" href="bahasa.css" />
+  </head>
+  <body>
+    <h1 style="text-align: center; padding-top: 20px; color: #445a14;">Bahasa Kutai</h1>
+    <div class="container">
+      <div class="d-flex">
+        <div class="column left">
+          <h2>Bahasa Kutai</h2>
+          <p>
+            Bahasa Kutai memiliki banyak pengaruh dari bahasa Melayu. Dalam
+            percakapan sehari-hari, ada beberapa kata serapan dari bahasa Banjar,
+            bahasa Bugis, serta bahasa Dayak.
+          </p>
+        </div>
+
+        <div class="column center">
+          <ul class="fish-list">
+            <li><img src="pe.png" alt="Kaltim" /></li>
+          </ul>
+        </div>
+
+        <div class="column right">
+          <h2>
+            Contoh<br />
+            Bahasa Kutai
+          </h2>
+
+          <p>Tolong bantu saya → Tolong bantu ulun</p>
+          <p>Kamu sedang apa? → Ke apek kamu beyang?</p>
+          <p>Mari kita makan → Ja kiteh makan</p>
+        </div>
+      </div>
+
+      <!-- Container untuk tombol -->
+      <div style="display: flex; justify-content: center; margin-top: 50px;">
+        <button
+          class="btn btn-primary"
+          onclick="goBack()"
+          style="
+            color: white;
+            background-color: #586e28; 
+            border: 10px; 
+            border-radius: 10px; 
+            font-size: 20px; 
+            padding: 15px 30px; 
+            width: 150px;
+          "
+        >
+          Back
+        </button>
+      </div>
+    </div>
+
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+  </body>
+</html>
